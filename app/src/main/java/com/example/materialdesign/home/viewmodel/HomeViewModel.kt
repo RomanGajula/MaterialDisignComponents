@@ -3,7 +3,7 @@ package com.example.materialdesign.home.viewmodel
 import android.content.Intent
 import android.view.View
 import androidx.lifecycle.ViewModel
-import com.example.materialdesign.BottomSheet
+import com.example.materialdesign.bottomSheet.BottomSheet
 import com.example.materialdesign.collaps.view.Collaps
 import com.example.materialdesign.navigation.Navigation
 import com.example.materialdesign.home.model.HomeModel

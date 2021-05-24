@@ -10,7 +10,7 @@
         android:background="@color/colorWhite"
         android:orientation="vertical"
         app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
-        tools:context=".BottomSheet">
+        tools:context=".bottomSheet.BottomSheet">
 
         <ImageView
             android:layout_width="match_parent"

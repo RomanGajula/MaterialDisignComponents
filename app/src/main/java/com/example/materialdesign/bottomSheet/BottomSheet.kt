@@ -1,16 +1,16 @@
-package com.example.materialdesign
+package com.example.materialdesign.bottomSheet
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
 import androidx.databinding.DataBindingUtil
+import com.example.materialdesign.R
 import com.example.materialdesign.databinding.ActivityBottomSheetBinding
-import com.example.materialdesign.databinding.ActivityNavigationBinding
 
 class BottomSheet : AppCompatActivity() {
 
-    private val bottomSheetFragment = BottomSheetFragment()
+    private val bottomSheetFragment =
+        BottomSheetFragment()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

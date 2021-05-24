@@ -1,9 +1,10 @@
-package com.example.materialdesign
+package com.example.materialdesign.bottomSheet
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.materialdesign.R
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
 class BottomSheetFragment :  BottomSheetDialogFragment(){
