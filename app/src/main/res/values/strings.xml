@@ -8,4 +8,12 @@
     <string name="openDrawer">Open</string>
     <string name="closeDrawer">Close</string>
     <string name="image">Image</string>
+    <string name="share_your_content">Share your content</string>
+    <string name="instagram">Instagram</string>
+    <string name="vk">VK</string>
+    <string name="twitter">Twitter</string>
+    <string name="add_to_file">add to File</string>
+    <string name="add_to_gallery">add to Gallery</string>
+    <string name="add_to_sd">add to SD card</string>
+    <string name="lorem">Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.</string>
 </resources>
