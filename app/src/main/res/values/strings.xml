@@ -15,5 +15,6 @@
     <string name="add_to_file">add to File</string>
     <string name="add_to_gallery">add to Gallery</string>
     <string name="add_to_sd">add to SD card</string>
-    <string name="lorem">Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.</string>
+    <string name="lorem">Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="loremIpsum">Standard dummy text ever since the 1500s lorem Ipsum has been the industry\'s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
 </resources>

@@ -12,7 +12,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:gravity="center"
-        android:text="@string/hello_blank_fragment" />
+        android:text="@string/lorem" />
 
     <ImageView
         android:id="@+id/imageView"

@@ -10,8 +10,7 @@ class HomeRepository {
             HomeModel("NavigationView"),
             HomeModel("Collapsing Toolbar"),
             HomeModel("Bottom Sheet"),
-            HomeModel("Bottom Navigation 3"),
-            HomeModel("Bottom Navigation 5"),
+            HomeModel("Bottom Navigation"),
             HomeModel("BottomAppBar")
         )
     }

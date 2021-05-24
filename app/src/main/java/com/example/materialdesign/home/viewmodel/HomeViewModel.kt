@@ -3,6 +3,7 @@ package com.example.materialdesign.home.viewmodel
 import android.content.Intent
 import android.view.View
 import androidx.lifecycle.ViewModel
+import com.example.materialdesign.BottomNavigation
 import com.example.materialdesign.bottomSheet.BottomSheet
 import com.example.materialdesign.collaps.view.Collaps
 import com.example.materialdesign.navigation.Navigation
@@ -31,6 +32,9 @@ class HomeViewModel: ViewModel() {
             }
             "Bottom Sheet" -> {
                 intent = Intent(view.context, BottomSheet::class.java)
+            }
+            "Bottom Navigation" -> {
+                intent = Intent(view.context, BottomNavigation::class.java)
             }
         }
 
