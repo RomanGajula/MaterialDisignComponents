@@ -7,4 +7,5 @@
         1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
     <string name="openDrawer">Open</string>
     <string name="closeDrawer">Close</string>
+    <string name="image">Image</string>
 </resources>

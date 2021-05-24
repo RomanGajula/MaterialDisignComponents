@@ -8,11 +8,7 @@ class HomeRepository {
         var materialDesignComponent = arrayListOf<HomeModel>(
             HomeModel("TabLayout"),
             HomeModel("NavigationView"),
-            HomeModel("SnackBar"),
-            HomeModel("TabLayout"),
-            HomeModel("TextInputLayout"),
             HomeModel("Collapsing Toolbar"),
-            HomeModel("Collapsing Toolbar + FAB"),
             HomeModel("Bottom Sheet"),
             HomeModel("Bottom Navigation 3"),
             HomeModel("Bottom Navigation 5"),

@@ -1,14 +1,14 @@
-package com.example.materialdesign
+package com.example.materialdesign.navigation
 
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Gravity
 import android.view.MenuItem
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
 import androidx.databinding.DataBindingUtil
 import androidx.drawerlayout.widget.DrawerLayout
+import com.example.materialdesign.R
 import com.example.materialdesign.databinding.ActivityNavigationBinding
 import com.google.android.material.navigation.NavigationView
 
@@ -30,16 +30,17 @@ class Navigation : AppCompatActivity() {
         drawerLayout = findViewById(R.id.drawerLayout)
 
         toggle =
-            ActionBarDrawerToggle(this, drawerLayout, R.string.openDrawer, R.string.closeDrawer)
+            ActionBarDrawerToggle(this, drawerLayout,
+                R.string.openDrawer,
+                R.string.closeDrawer
+            )
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
 
         toolBar = findViewById(R.id.toolbar)
 
         setSupportActionBar(toolBar)
-
         supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_menu)
-
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         clickNavigationItem(binding.navView, binding.drawerLayout)
@@ -52,7 +53,7 @@ class Navigation : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
-    fun clickNavigationItem(nav: NavigationView, drawerLayout: DrawerLayout) {
+    private fun clickNavigationItem(nav: NavigationView, drawerLayout: DrawerLayout) {
         nav.setNavigationItemSelectedListener {
             it.isChecked = true
             drawerLayout.closeDrawers()

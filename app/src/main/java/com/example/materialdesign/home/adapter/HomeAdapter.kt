@@ -18,7 +18,6 @@ class HomeAdapter : RecyclerView.Adapter<HomeAdapter.MyViewHolder>() {
     inner class MyViewHolder(val binding: ListItemBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind() {
-            val employee = HomeRepository.materialDesignComponent[bindingAdapterPosition]
             val view = binding.root
             binding.containerMaterialDesignComponent.setOnClickListener {
                 homeViewModel.checkClickMaterialDesignComponent(binding.nameMaterialDesignComponent.text.toString(), view)

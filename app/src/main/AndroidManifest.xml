@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialDesign">
-        <activity android:name=".Navigation"></activity>
+        <activity android:name=".CollapsTwo"></activity>
+        <activity android:name=".collaps.view.Collaps" />
+        <activity android:name=".navigation.Navigation" />
         <activity android:name=".tab.Tabs" />
         <activity android:name=".home.view.MainActivity">
             <intent-filter>
