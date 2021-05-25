@@ -1,7 +1,6 @@
 package com.example.materialdesign.collaps.reposirory
 
-import com.example.materialdesign.collaps.CollapsModel
-import com.example.materialdesign.home.model.HomeModel
+import com.example.materialdesign.collaps.model.CollapsModel
 
 class CollapsRepository {
     companion object {

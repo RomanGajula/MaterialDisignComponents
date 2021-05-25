@@ -3,20 +3,20 @@ package com.example.materialdesign.home.viewmodel
 import android.content.Intent
 import android.view.View
 import androidx.lifecycle.ViewModel
-import com.example.materialdesign.BottomAppBar
-import com.example.materialdesign.BottomNavigation
+import com.example.materialdesign.bottomAppBar.BottomAppBar
+import com.example.materialdesign.BottomNavigation.BottomNavigation
 import com.example.materialdesign.bottomSheet.BottomSheet
 import com.example.materialdesign.collaps.view.Collaps
 import com.example.materialdesign.navigation.Navigation
 import com.example.materialdesign.home.model.HomeModel
 import com.example.materialdesign.home.repository.HomeRepository
-import com.example.materialdesign.tab.Tabs
+import com.example.materialdesign.tab.view.Tabs
 
-class HomeViewModel: ViewModel() {
+class HomeViewModel : ViewModel() {
 
     private lateinit var intent: Intent
 
-    fun getMaterialDesignComponent() : List<HomeModel> {
+    fun getMaterialDesignComponent(): List<HomeModel> {
         return HomeRepository.materialDesignComponent
     }
 

@@ -1,4 +1,4 @@
-package com.example.materialdesign
+package com.example.materialdesign.bottomAppBar
 
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
@@ -9,6 +9,7 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
 import androidx.databinding.DataBindingUtil
 import androidx.drawerlayout.widget.DrawerLayout
+import com.example.materialdesign.R
 import com.example.materialdesign.databinding.ActivityBottomAppBarBinding
 import com.google.android.material.bottomappbar.BottomAppBar
 import com.google.android.material.navigation.NavigationView

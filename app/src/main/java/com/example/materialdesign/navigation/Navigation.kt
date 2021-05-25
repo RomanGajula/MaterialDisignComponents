@@ -27,21 +27,8 @@ class Navigation : AppCompatActivity() {
                 R.layout.activity_navigation
             )
 
-        drawerLayout = findViewById(R.id.drawerLayout)
-
-        toggle =
-            ActionBarDrawerToggle(this, drawerLayout,
-                R.string.openDrawer,
-                R.string.closeDrawer
-            )
-        drawerLayout.addDrawerListener(toggle)
-        toggle.syncState()
-
-        toolBar = findViewById(R.id.toolbar)
-
-        setSupportActionBar(toolBar)
-        supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_menu)
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        setupDrawer(binding.drawerLayout)
+        setupToolBar()
 
         clickNavigationItem(binding.navView, binding.drawerLayout)
     }
@@ -59,5 +46,23 @@ class Navigation : AppCompatActivity() {
             drawerLayout.closeDrawers()
             return@setNavigationItemSelectedListener true
         }
+    }
+
+    private fun setupToolBar() {
+        toolBar = findViewById(R.id.toolbar)
+        setSupportActionBar(toolBar)
+        supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_menu)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+    }
+
+    private fun setupDrawer(drawerLayout: DrawerLayout) {
+        toggle =
+            ActionBarDrawerToggle(
+                this, drawerLayout,
+                R.string.openDrawer,
+                R.string.closeDrawer
+            )
+        drawerLayout.addDrawerListener(toggle)
+        toggle.syncState()
     }
 }

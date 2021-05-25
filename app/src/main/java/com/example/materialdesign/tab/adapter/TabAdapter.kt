@@ -1,9 +1,11 @@
-package com.example.materialdesign.tab
+package com.example.materialdesign.tab.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
-import com.example.materialdesign.R
+import com.example.materialdesign.tab.fragment.Fragment_tab_1
+import com.example.materialdesign.tab.fragment.Fragment_tab_2
+import com.example.materialdesign.tab.fragment.Fragment_tab_3
 
 class TabAdapter(var fragmentManager: FragmentManager) : FragmentStatePagerAdapter(fragmentManager) {
 

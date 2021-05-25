@@ -2,14 +2,9 @@ package com.example.materialdesign.collaps.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.appcompat.widget.Toolbar
 import androidx.databinding.DataBindingUtil
-import androidx.recyclerview.widget.DividerItemDecoration
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.example.materialdesign.R
 import com.example.materialdesign.collaps.adapter.CollapsAdapter
-import com.example.materialdesign.home.adapter.HomeAdapter
 
 class Collaps : AppCompatActivity() {
 

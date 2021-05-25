@@ -9,13 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialDesign">
-        <activity android:name=".BottomAppBar"></activity>
-        <activity android:name=".BottomNavigation" />
+        <activity android:name=".bottomAppBar.BottomAppBar"></activity>
+        <activity android:name=".BottomNavigation.BottomNavigation" />
         <activity android:name=".bottomSheet.BottomSheet" />
         <activity android:name=".CollapsTwo" />
         <activity android:name=".collaps.view.Collaps" />
         <activity android:name=".navigation.Navigation" />
-        <activity android:name=".tab.Tabs" />
+        <activity android:name=".tab.view.Tabs" />
         <activity android:name=".home.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

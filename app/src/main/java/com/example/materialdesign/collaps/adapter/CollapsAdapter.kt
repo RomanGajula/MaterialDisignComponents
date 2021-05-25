@@ -6,9 +6,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.materialdesign.collaps.reposirory.CollapsRepository
 import com.example.materialdesign.databinding.ListItemBinding
-import com.example.materialdesign.home.adapter.HomeAdapter
-import com.example.materialdesign.home.repository.HomeRepository
-import com.example.materialdesign.home.viewmodel.HomeViewModel
 
 class CollapsAdapter : RecyclerView.Adapter<CollapsAdapter.CollapsViewHolder>() {
 

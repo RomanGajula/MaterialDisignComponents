@@ -1,15 +1,12 @@
 package com.example.materialdesign.home.adapter
 
 import android.annotation.SuppressLint
-import android.content.Intent
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.materialdesign.databinding.ListItemBinding
 import com.example.materialdesign.home.repository.HomeRepository
 import com.example.materialdesign.home.viewmodel.HomeViewModel
-import com.example.materialdesign.tab.Tabs
 
 class HomeAdapter : RecyclerView.Adapter<HomeAdapter.MyViewHolder>() {
 
@@ -20,7 +17,10 @@ class HomeAdapter : RecyclerView.Adapter<HomeAdapter.MyViewHolder>() {
         fun bind() {
             val view = binding.root
             binding.containerMaterialDesignComponent.setOnClickListener {
-                homeViewModel.checkClickMaterialDesignComponent(binding.nameMaterialDesignComponent.text.toString(), view)
+                homeViewModel.checkClickMaterialDesignComponent(
+                    binding.nameMaterialDesignComponent.text.toString(),
+                    view
+                )
             }
         }
     }
