@@ -3,6 +3,7 @@ package com.example.materialdesign.home.viewmodel
 import android.content.Intent
 import android.view.View
 import androidx.lifecycle.ViewModel
+import com.example.materialdesign.BottomAppBar
 import com.example.materialdesign.BottomNavigation
 import com.example.materialdesign.bottomSheet.BottomSheet
 import com.example.materialdesign.collaps.view.Collaps
@@ -21,21 +22,23 @@ class HomeViewModel: ViewModel() {
 
     fun checkClickMaterialDesignComponent(text: String, view: View) {
         when (text) {
-            "TabLayout" -> {
+            "TabLayout" ->
                 intent = Intent(view.context, Tabs::class.java)
-            }
-            "NavigationView" -> {
+
+            "NavigationView" ->
                 intent = Intent(view.context, Navigation::class.java)
-            }
-            "Collapsing Toolbar" -> {
+
+            "Collapsing Toolbar" ->
                 intent = Intent(view.context, Collaps::class.java)
-            }
-            "Bottom Sheet" -> {
+
+            "Bottom Sheet" ->
                 intent = Intent(view.context, BottomSheet::class.java)
-            }
-            "Bottom Navigation" -> {
+
+            "Bottom Navigation" ->
                 intent = Intent(view.context, BottomNavigation::class.java)
-            }
+
+            "BottomAppBar" ->
+                intent = Intent(view.context, BottomAppBar::class.java)
         }
 
         view.context.startActivity(intent)
