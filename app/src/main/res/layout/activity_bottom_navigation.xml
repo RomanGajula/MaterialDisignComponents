@@ -24,7 +24,7 @@
             android:layout_marginTop="?actionBarSize"
             android:layout_marginBottom="?actionBarSize">
 
-            <include layout="@layout/fragment_tab_2" />
+<!--            <include layout="@layout/fragment_tab_2" />-->
 
         </FrameLayout>
 

@@ -28,6 +28,8 @@ class BottomNavigation : AppCompatActivity() {
 
         setSupportActionBar(toolBar)
 
+        updateFragment(Fragment_tab_2())
+
         binding.bottomNav.setOnNavigationItemSelectedListener {
             when (it.itemId) {
                 R.id.user -> {
